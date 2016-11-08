@@ -4,7 +4,8 @@
   "description": "multi-select switch component",
   "main": "index.js",
   "scripts": {
-    "test": "eslint lib/*.js"
+    "test": "eslint lib/*.js",
+    "build-demo": "browserify src/app.js > demo/app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/drom/p2k#readme",
   "devDependencies": {
-    "eslint": "^3.9.1"
+    "browserify": "^13.1.1",
+    "eslint": "^3.9.1",
+    "onml": "^0.3.1"
   }
 }
