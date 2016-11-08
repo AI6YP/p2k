@@ -1,0 +1,22 @@
+{
+  "name": "p2k",
+  "version": "0.1.0",
+  "description": "multi-select switch component",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint lib/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/p2k.git"
+  },
+  "author": "alex.drom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/p2k/issues"
+  },
+  "homepage": "https://github.com/drom/p2k#readme",
+  "devDependencies": {
+    "eslint": "^3.9.1"
+  }
+}
